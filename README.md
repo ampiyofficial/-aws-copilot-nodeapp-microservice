@@ -1,2 +1,2 @@
-# -aws-copilot-nodeapp-microservice
+# aws-copilot-nodeapp-microservice
 Node App Microservice deployed using AWS Copilot
