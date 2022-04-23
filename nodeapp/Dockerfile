@@ -9,6 +9,7 @@ RUN npm ci --only=production
 
 FROM node:lts-alpine3.15 AS final
 RUN apk add dumb-init
+RUN apk --no-cache add curl
 ENV NODE_ENV production
 RUN mkdir /usr/src/
 RUN mkdir /usr/src/app
